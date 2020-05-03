@@ -1,4 +1,16 @@
+.page-border{
+    border: 20px solid transparent;
+    border-image: linear-gradient(to right, #a81515 0%, #122077 100%);
+    border-image-slice: 1;
+}
 
+* {
+    cursor: pointer; 
+}
+
+h6{
+    color:gray;
+}
 
 .contacts li a.twitter:hover {
     color: rgba(29, 160, 242, 0.883);
@@ -8,18 +20,49 @@
 }
 
 .avatar{
-    max-width: 100%;
+    max-width: 100%;   
 }
+
 .avatar-wrapper {
     padding: 1em 0;
 }
 
+.avatar-wrapper .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.avatar-wrapper:hover .img-top {
+    display: inline;
+}
+.avatar-wrapper:hover .img-back {
+    opacity: 0;
+}
+
 @media screen and (max-width: 770px) {
     .avatar-wrapper{
+        display: flex;
         margin: 0 auto;
+    }
+    .avatar-wrapper:hover .img-back{
+        opacity: 100%;
+    }
+    .avatar-wrapper:hover .img-top{
+        opacity: 0;
     }
     .avatar{
         max-width: 40%;
+    }
+    
+    .page-border{
+        border: 10px solid transparent;
+        border-image: linear-gradient(to right, #b41818 0%, #111c64 100%);
+        border-image-slice: 1;
+    }
+    h2 + p {
+        font-size: 1.2rem;
     }
 }
 
