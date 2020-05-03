@@ -1,0 +1,30 @@
+
+
+.contacts li a.twitter:hover {
+    color: rgba(29, 160, 242, 0.883);
+}
+.contacts li a.instagram:hover {
+    color:rgb(193,53,132);
+}
+
+.avatar{
+    max-width: 100%;
+}
+.avatar-wrapper {
+    padding: 1em 0;
+}
+
+@media screen and (max-width: 770px) {
+    .avatar-wrapper{
+        margin: 0 auto;
+    }
+    .avatar{
+        max-width: 40%;
+    }
+}
+
+
+
+  
+  
+ 
