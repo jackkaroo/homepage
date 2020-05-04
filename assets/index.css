@@ -1,11 +1,11 @@
+* {
+    cursor: pointer; 
+}
+
 .page-border{
     border: 20px solid transparent;
     border-image: linear-gradient(to right, #a81515 0%, #122077 100%);
     border-image-slice: 1;
-}
-
-* {
-    cursor: pointer; 
 }
 
 h6{
