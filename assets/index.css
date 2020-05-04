@@ -2,15 +2,13 @@
     cursor: pointer; 
 }
 
-.page-border{
+.page-border {
     border: 20px solid transparent;
     border-image: linear-gradient(to right, #a81515 0%, #122077 100%);
     border-image-slice: 1;
 }
 
-h6{
-    color:gray;
-}
+
 
 .contacts li a.twitter:hover {
     color: rgba(29, 160, 242, 0.883);
@@ -19,7 +17,7 @@ h6{
     color:rgb(193,53,132);
 }
 
-.avatar{
+.avatar {
     max-width: 100%;   
 }
 
@@ -46,17 +44,17 @@ h6{
         display: flex;
         margin: 0 auto;
     }
-    .avatar-wrapper:hover .img-back{
+    .avatar-wrapper:hover .img-back {
         opacity: 100%;
     }
-    .avatar-wrapper:hover .img-top{
+    .avatar-wrapper:hover .img-top {
         opacity: 0;
     }
     .avatar{
         max-width: 40%;
     }
     
-    .page-border{
+    .page-border {
         border: 10px solid transparent;
         border-image: linear-gradient(to right, #b41818 0%, #111c64 100%);
         border-image-slice: 1;
