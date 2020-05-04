@@ -1,5 +1,5 @@
 * {
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .page-border {
@@ -8,17 +8,15 @@
     border-image-slice: 1;
 }
 
-
-
 .contacts li a.twitter:hover {
     color: rgba(29, 160, 242, 0.883);
 }
 .contacts li a.instagram:hover {
-    color:rgb(193,53,132);
+    color: rgb(193, 53, 132);
 }
 
 .avatar {
-    max-width: 100%;   
+    max-width: 100%;
 }
 
 .avatar-wrapper {
@@ -40,7 +38,7 @@
 }
 
 @media screen and (max-width: 770px) {
-    .avatar-wrapper{
+    .avatar-wrapper {
         display: flex;
         margin: 0 auto;
     }
@@ -50,7 +48,7 @@
     .avatar-wrapper:hover .img-top {
         opacity: 0;
     }
-    .avatar{
+    .avatar {
         max-width: 40%;
     }
     
@@ -63,9 +61,3 @@
         font-size: 1.2rem;
     }
 }
-
-
-
-  
-  
- 
